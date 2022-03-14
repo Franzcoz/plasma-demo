@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="177.91162mm"
+   height="177.91162mm"
+   viewBox="0 0 177.91162 177.91162"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="toggle-fullscreen-on.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.51580387"
+     inkscape:cx="142.49602"
+     inkscape:cy="444.93656"
+     inkscape:window-width="1366"
+     inkscape:window-height="741"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 29.411617 : 1"
+       inkscape:vp_y="0 : 999.99997 : 0"
+       inkscape:vp_z="210 : 29.411617 : 1"
+       inkscape:persp3d-origin="105 : -20.088382 : 1"
+       id="perspective1286" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-14.964611,-66.510852)">
+    <path
+       id="rect846"
+       style="fill:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.917647;paint-order:fill markers stroke;stop-color:#000000"
+       d="m 32.696345,66.510852 c -9.823399,0 -17.731734,7.908338 -17.731734,17.731735 v 50.444463 h 20.079395 v -34.36741 c 0,-7.606008 6.123387,-13.729392 13.729393,-13.729392 H 83.140295 V 66.510852 Z m 92.003685,0 v 20.079396 h 34.36741 c 7.60601,0 13.7294,6.123384 13.7294,13.729392 v 34.36741 h 20.07939 V 84.242587 c 0,-9.823397 -7.90833,-17.731735 -17.73173,-17.731735 z M 14.964611,176.24627 v 50.44447 c 0,9.8234 7.908335,17.73173 17.731734,17.73173 h 50.44395 V 224.34308 H 48.773399 c -7.606006,0 -13.729393,-6.12339 -13.729393,-13.7294 v -34.36741 z m 157.832229,0 v 34.36741 c 0,7.60601 -6.12339,13.7294 -13.7294,13.7294 h -34.36741 v 20.07939 h 50.44447 c 9.8234,0 17.73173,-7.90833 17.73173,-17.73173 v -50.44447 z" />
+  </g>
+</svg>

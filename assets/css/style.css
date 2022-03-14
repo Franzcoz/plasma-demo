@@ -1,0 +1,218 @@
+/* Setting desktop properties */
+
+body {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Setting styles and hover actions for toggling fullscreen-on button */
+
+div.toggle-on {
+    position: absolute;
+    opacity: 0.4;
+    bottom: 8vh;
+    right: 2vw;
+    height: 6vh;
+    width: 6vh;
+}
+
+div.toggle-on img {
+    width: 7vh;
+    height: 7vh;
+}
+
+div.toggle-on:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.toggle-on img:hover {
+    filter: invert(81%) sepia(4%) saturate(4284%) hue-rotate(172deg) brightness(103%) contrast(83%);
+}
+
+/* Setting styles and hover actions for toggling fullscreen-off button */
+
+div.toggle-off {
+    position: absolute;
+    opacity: 0.4;
+    bottom: 8vh;
+    right: 2vw;
+    height: 6vh;
+    width: 6vh;
+}
+
+div.toggle-off img {
+    width: 7vh;
+    height: 7vh;
+}
+
+div.toggle-off:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.toggle-off img:hover {
+    filter: invert(81%) sepia(4%) saturate(4284%) hue-rotate(172deg) brightness(103%) contrast(83%);
+}
+
+/* Desktop wallpaper */
+
+div.wallpaper {
+    display: block;
+    height: 96vh;
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+    background-image: url("../img/bg.jpg"); /* can be set to whatever image url */
+    background-repeat: no-repeat;
+    background-size: 100vw 96vh;
+}
+
+/* Setting basic hide and show rules */
+
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block;
+}
+
+/* Defining styles for menu */
+
+.kick div.grid {
+    display: grid;
+    gap: 0%;
+    margin: 0%;
+    padding: 0%;
+    position: fixed;
+    bottom: 4vh;
+    left: 0vw;
+    width: 48vw;
+    height: 62vh;
+    background-color: #eff0f1;
+    border-top-left-radius: 3pt;
+    border-top-right-radius: 3pt;
+}
+
+.kick .top {
+    grid-column-start: 1;
+    grid-column-end: 101;
+    grid-row-start: 1;
+    grid-row-end: 10;
+    border-top-left-radius: 3pt;
+    border-top-right-radius: 3pt;
+    top:0vh;
+    left: 0vw;
+    border-bottom: 0.1vh solid rgb(219, 220, 221);
+}
+
+.kick .left {
+    grid-column-start: 1;
+    grid-column-end: 26;
+    grid-row-start: 10;
+    grid-row-end: 92;
+    border-right: 0.1vh solid rgb(219, 220, 221);
+    margin: 0%;
+}
+
+.kick .scrleft {
+    grid-column-start: 26;
+    grid-column-end: 34;
+    grid-row-start: 10;
+    grid-row-end: 92;
+    margin: 0%;
+    border-right: 0.1vh solid rgb(219, 220, 221);
+}
+
+.kick .fav {
+    grid-column-start: 34;
+    grid-column-end: 93;
+    grid-row-start: 10;
+    grid-row-end: 92;
+    margin: 0%;
+    border-right: 0.1vh solid rgb(219, 220, 221);
+}
+
+.kick .scright {
+    grid-column-start: 93;
+    grid-column-end: 101;
+    grid-row-start: 10;
+    grid-row-end: 92;
+    margin: 0%;
+}
+
+.kick .bott {
+    grid-column-start: 1;
+    grid-column-end: 101;
+    grid-row-start: 92;
+    grid-row-end: 101;
+    left: 0vw;
+    border-top: 0.1vh solid rgb(219, 220, 221);
+    border-bottom: 0.1vh solid rgb(219, 220, 221);
+}
+
+/* Panel elements style */
+
+    /* Main panel */
+
+div.panel {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background-color: #eff0f1;
+    width: 100vw;
+    height: 4vh;
+    margin: 0%;
+    padding: 0.55vh;
+}
+
+    /* Menu button */
+
+div.panel .menu {
+    display: block;
+    height: 3vh;
+}
+
+.panel .menu:hover {
+    opacity: 0.8;
+}
+
+/* Apps layout */
+
+.app {
+    position: fixed;
+    width: 45vw;
+    height: 60vh;
+    top: 10vh;
+    left: 20vw;
+    background-color: #eff0f1;
+    border-top-left-radius: 3pt;
+    border-top-right-radius: 3pt;
+}
+
+.app div.grid {
+    display: grid;
+    gap: 0%;
+    margin: 0%;
+    padding: 0%;
+    left: 0vw;
+}
+
+div.grid .header {
+    grid-column-start: 1;
+    grid-column-end: 101;
+    grid-row-start: 1;
+    grid-row-end: 8;
+    border-top-left-radius: 3pt;
+    border-top-right-radius: 3pt;
+}
+
+.app .content {
+    grid-column-start: 1;
+    grid-column-end: 101;
+    grid-row-start: 8;
+    grid-row-end: 101;
+}
+
