@@ -1,3 +1,9 @@
-artifacts:
+image: node:latest
+
+cache:
     paths:
-      - public
+        - node_modules/
+        - .yarn
+
+include:
+    - local: .gitlab-ci.yml
