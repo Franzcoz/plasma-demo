@@ -1,7 +1,12 @@
 /* Setting desktop properties */
-
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body {
     display: block;
+    margin: 0px;
+    padding: 0px;;
     width: 100vw;
     height: 100vh;
 }
@@ -159,7 +164,7 @@ div.wallpaper {
 
 div.panel {
     display: block;
-    position: absolute;
+    position: relative;
     bottom: 0;
     background-color: #eff0f1;
     width: 100vw;
@@ -172,7 +177,7 @@ div.panel {
 
 div.panel .menu {
     display: block;
-    height: 3vh;
+    height: 3.5vh;
 }
 
 .panel .menu:hover {
